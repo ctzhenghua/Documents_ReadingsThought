@@ -1,0 +1,251 @@
+\documentclass[UTF8,a4paper,12pt]{ctexbook} 
+
+\usepackage{graphicx}%学习插入图
+\usepackage{verbatim}%学习注释多行
+\usepackage{booktabs}%表格
+\usepackage{geometry}%图片
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}%代码
+\usepackage{xcolor}  %颜色
+\usepackage{enumitem}%列表格式
+\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setitemize[1]{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
+\usepackage{tcolorbox}
+\usepackage{algorithm}  %format of the algorithm
+\usepackage{algorithmic}%format of the algorithm
+\usepackage{multirow}   %multirow for format of table
+\usepackage{tabularx} 	%表格排版格式控制
+\usepackage{array}	%表格排版格式控制
+\usepackage{hyperref} %超链接 \url{URL}
+\usepackage{tikz}
+\usepackage{dirtree}
+
+\CTEXsetup[format+={\flushleft}]{section}
+
+%%%% 设置图片目录
+\graphicspath{{figure/}}
+
+%%%% 段落首行缩进两个字 %%%%
+\makeatletter
+\let\@afterindentfalse\@afterindenttrue
+\@afterindenttrue
+\makeatother
+\setlength{\parindent}{2em}  %中文缩进两个汉字位
+
+%%%% 下面的命令重定义页面边距，使其符合中文刊物习惯 %%%%
+\addtolength{\topmargin}{-54pt}
+\setlength{\oddsidemargin}{0.63cm}  % 3.17cm - 1 inch
+\setlength{\evensidemargin}{\oddsidemargin}
+\setlength{\textwidth}{14.66cm}
+\setlength{\textheight}{24.00cm}    % 24.62
+
+%%%% 下面的命令设置行间距与段落间距 %%%%
+\linespread{1.0}
+\setlength{\parskip}{0.5\baselineskip}
+\geometry{left=1.6cm,right=1.8cm,top=2cm,bottom=1.7cm} %设置文章宽度
+\pagestyle{plain} 		  %设置页面布局
+
+%代码效果定义
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+	backgroundcolor=\color{white},   % choose the background color
+	basicstyle=\footnotesize\ttfamily,      % size of fonts used for the code
+	%stringstyle=\color{codepurple},
+	%basicstyle=\footnotesize,
+	%breakatwhitespace=false,         
+	%breaklines=true,                 
+	%captionpos=b,                    
+	%keepspaces=true,                 
+	%numbers=left,                    
+	%numbersep=5pt,                  
+	%showspaces=false,                
+	%showstringspaces=false,
+	%showtabs=false,        
+	columns=fullflexible,
+	breaklines=true,                 % automatic line breaking only at whitespace
+	captionpos=b,                    % sets the caption-position to bottom
+	tabsize=4,
+	commentstyle=\color{mygreen},    % comment style
+	escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+	keywordstyle=\color{blue},       % keyword style
+	stringstyle=\color{mymauve}\ttfamily,     % string literal style
+	frame=L,
+	xleftmargin = .04\textwidth,
+	rulesepcolor=\color{red!20!green!20!blue!20},
+	% identifierstyle=\color{red},
+	language=c++,
+}
+ \author{\kaishu 郑华}
+ \title{\heiti 2019读书笔记}
+ 
+\begin{document}          %正文排版开始
+ 	\maketitle
+
+\chapter{文学类}
+	\section{红楼梦}
+		
+	\section{1984}
+		作者营造了当时或者心中 社会主义政权的社会环境，社会结构。有老大哥，核心党、外围党、无产阶级。
+		
+		生活的环境随时受着电幕的监控，和思想警察的监视，可以说是极度的一种不自由，而在这种不自由的情况下，人们尝试着一些内心的反抗，或者是温斯顿和裘莉亚 的反抗，因而在这段不易得来的自由时光里使得两人的肉体之情发展到情爱。
+		
+		而为了生存，或者躲避严酷的酷刑，或者在被折磨的无意识下、在相互承诺的前提下、出卖对方求取生存、或者是求取最后的解脱。
+		
+		里面有一个角色，虽然作者用了很少的笔墨，但是也对于我来说是一个比较不寻常的存在，赛麦，因为太聪明，话太多，不知道隐藏自己，或者不知道装傻，早早被思想警察带走。
+		
+		是一个故事，一段历史。
+		
+	\section{漫长的告别}
+		这个破烂的开头让我还犹豫了好久，它到底在讲什么，但是读到他的朋友，或者他的点头之交，杀害文头提到的漂亮的女人的时候，或者因杀掉她然后自杀，才恍然知道这个开头也是精心安排的。
+		
+		是的，前10节，我看到的是这期案子的起因、结果、和作者本人为朋友而死活不招供的描述。
+		
+	
+	\section{爱你就像爱生命}
+		
+	\section{局外人}
+	
+	\section{白夜行}
+	
+	\section{棋王}
+	
+	\section{源泉}
+	
+	\section{变形记}
+	
+	\section{霍乱时期的爱情}
+	
+	\section{围城}
+	
+	\section{百年孤独}
+		一个家族7代人的故事。兴衰史？平淡生活的点点记录？曲折离奇日子的描述？一段注定百年孤独的家族注定只会在这个世上出现一次！是珍惜现在，尊重宝贵的历史遗产？
+		
+		描写马贡多被殖民者文明侵入后，然后下了4年多少的雨，留下的是什么？带走的又是什么？
+		
+		起头的猪尾巴的可怕担忧，竟成了本家族最后的结尾。
+		
+	\section{麦田里的守望者}
+		老实话，没看懂
+		
+	\section{我与地坛}
+	
+	\section{基督山伯爵}
+	
+	\section{3个火枪手}	
+	
+	\section{穆斯林的葬礼}
+	
+	\section{金锁记}
+	
+	\section{动物农场}
+	
+	\section{月亮与六便士}
+	
+	\section{无声告白}
+	
+	\section{鼠疫}
+	
+	\section{牧羊少年奇幻之旅}
+	
+	\section{人间失格}
+	
+	\section{九故事}
+	
+	\section{追风筝的人}
+	
+	\section{黄金时代}
+	
+	\section{平凡的世界}
+		
+	\section{呐喊}
+	
+	\section{通往奴役之路}
+	
+	\section{卡拉马佐夫兄弟}
+	
+	\section{呼啸山庄}
+	
+	\section{悲惨世界}
+	
+	\section{金瓶梅}
+	
+\chapter{哲理性}
+	\section{论语}
+
+	\section{大学}
+	
+	\section{中庸}
+	
+	\section{曾国藩家书}
+	
+	\section{纯粹理性批判-康德}
+	
+	\section{实践理性批判-康德}
+	
+	\section{判断力批判-康德}
+	
+	\section{少有人走的路}
+\chapter{经济类}
+	\section{国富论}
+	
+	\section{财富自由之路}
+
+	\section{经济学通识}
+	
+	
+\chapter{人文社科传记类}
+	\section{青春恋爱心理学}		
+	
+	\section{富兰克林传}
+
+	\section{格局逆袭}
+	
+	
+\chapter{历史类}
+	\section{资治通鉴故事}
+	
+	\section{明朝那些事}
+
+\chapter{诗词类}
+	\section{唐诗}
+
+	\section{宋词}
+
+
+\chapter{技术类} 
+	\section{Linux 环境编程-从应用到内核}
+	
+	\section{Unix 环境高级编程}
+
+	\section{Redis 设计与实现}
+	
+	\section{Shell 高级编程}
+	
+	\section{后台开发：核心技术与应用实践}
+	
+	\section{深入理解计算机操作系统}
+	
+	\section{Linux 内核设计与实现}
+	
+	\section{深入理解Linux 内核}
+	
+	\section{LevelDB}
+	
+	\section{RocksDB}
+	
+	\section{深入探讨MySQL}
+	
+	\section{深入探索C++ 对象模型}
+	
+	\section{LeetCode500题}
+	
+	\section{设计模式}
+	
+	\section{代码大全2}
+	
+\end{document} 
+ 		    
